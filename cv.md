@@ -1,5 +1,5 @@
 #Sveta Tomzova
-![Avatar](/img/mountan.png)
+![Avatar](/assets/images/avatar.jpg)
 ###Frontend Developer (Junior)
 
 ====
