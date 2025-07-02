@@ -1,1 +1,1 @@
-# rsschool-cv
+https://NerpaBosikom.github.io/rsschool-cv/cv
