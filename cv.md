@@ -2,15 +2,17 @@
 
 ![Avatar](/assets/images/avatar.jpg)
 
-### Frontend Developer (Junior)
+## Frontend Developer (Junior)
 
-====
+---
 
 [Telegram @nerpa_bosikom](https://t.me/nerpa_bosikom)
 
 Email: bosekom@bk.ru
 
-# Discord: Nerpa (@NerpaBosikom)
+Discord: Nerpa (@NerpaBosikom)
+
+---
 
 ### About Me
 
