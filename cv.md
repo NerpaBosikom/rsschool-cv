@@ -1,7 +1,5 @@
 # Sveta Tomzova
 
-![Avatar](/assets/images/avatar.jpg)
-
 ## Frontend Developer (Junior)
 
 ---
@@ -49,3 +47,7 @@ function multiply(a, b){
 
 Level: Intermediate (B1–B2)
 I read documentation, watch tutorials, and sometimes practice English while studying. I want to improve my speaking and understanding to work comfortably in a team.
+
+---
+
+![Avatar](/assets/images/avatar.jpg)
