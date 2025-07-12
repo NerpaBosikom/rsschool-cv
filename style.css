@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #FDFDFD;
+  color: #111111;
+} 
+
+a {
+  text-decoration: none;
+  transition: color 0.5s;
+  color: #111111;
+}
+
+a:hover {
+  color: #E6DED3;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 0 20px;
+  width: 100%;
+  background-color: #BBC0BA;
+}
+
+.header__nav-list {
+  height: 10vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+}
+
+li  {
+  list-style: none;
+}
+
+.header__nav-link {
+  line-height: 50px;
+}
+
+.main {
+  margin-bottom: 40px;
+}
+
+.profile {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  padding: 0 20px;
+  padding-block: 60px;
+  width: 100%;
+  background-color: #FDF0E7;
+}
+
+@media (max-width: 768px) {
+  .profile {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    text-align: center;
+  }
+}
+
+.profile__title {
+  margin-bottom: 10px;
+  font-family: "Marcellus", serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 36px;
+}
+
+.profile__subtitle {
+  margin-bottom: 10px;
+  font-family: "Marcellus", serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 26px;
+}
+
+.profile__avatar {
+  justify-self: center;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 7px solid #BBC0BA;
+  object-fit: cover;
+  margin-block: 20px;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  margin-bottom: 30px;
+  padding: 0 20px;
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+
+h2 {
+  margin-bottom: 10px;
+  font-family: "Marcellus", serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 22px;
+  text-decoration: underline;
+  text-decoration-color: #BBC0BA;
+  text-underline-offset: 4px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.footer {
+  height: 10vh;
+  width: 100%;
+  background-color: #BBC0BA;
+}
+
+.footer__logo {
+  width: 120px;
+  height: 44px;
+}
+
+.footer__container {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+@media (min-width: 769px) {
+  .no-left-padding {
+    padding-left: 0;
+  }
+}

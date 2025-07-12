@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Marcellus&family=Poppins:ital,wght@0,300;0,400;0,600;0,800;1,300;1,400;1,600;1,800&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./assets/images/favicon.ico">
+    <title>cv</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="header__nav">
+          <ul class="header__nav-list">
+            <li class="header__nav-item">
+              <a class="header__nav-link" href="#contacts">Contacts</a>
+            </li>
+            <li class="header__nav-item">
+              <a class="header__nav-link" href="#summary">Summary</a>
+            </li>
+            <li class="header__nav-item">
+              <a class="header__nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="header__nav-item">
+              <a class="header__nav-link" href="#code">Code</a>
+            </li>
+            <li class="header__nav-item">
+              <a class="header__nav-link" href="#courses">Courses</a>
+            </li>
+            <li class="header__nav-item">
+              <a class="header__nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="header__nav-item">
+              <a class="header__nav-link" href="#languages">Languages</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main container main-container">
+      <section class="profile">
+        <img
+          class="profile__avatar"
+          src="./assets/images/avatar.jpg"
+          alt="my photo">
+        <div>
+          <h1 class="profile__title">Svetlana Tomzova</h1>
+          <p class="profile__subtitle">Frontend Developer ( Junior )</p>
+        </div>
+      </section>
+      <section class="section contacts" id="contacts">
+        <h2>Contacts</h2>
+        <ul>
+          <li>
+            Telegram: <a href="https://t.me/nerpa_bosikom">@nerpa_bosikom</a>
+          </li>
+          <li>Email: <a href="mailto:bosekom@bk.ru">bosekom@bk.ru</a></li>
+          <li>Discord: Nerpa (@NerpaBosikom)</li>
+        </ul>
+      </section>
+      <section class="section summary no-left-padding" id="summary">
+        <h2>About Me</h2>
+        <p>
+          I'm a junior frontend developer and want to grow in IT. I enjoy
+          writing clean code, creating user-friendly interfaces, and learning
+          new things. I don’t have work experience yet, but I’ve built several
+          study projects using HTML, CSS, JavaScript, and React. I try to pay
+          attention to details and I'm not afraid to try new things. My goal is
+          to gain experience, work on real tasks, and grow in a team.
+        </p>
+      </section>
+      <section class="section skills" id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>Languages: JavaScript (ES6+), HTML5, CSS3</li>
+          <li>Frameworks/Libraries: React, Bootstrap</li>
+          <li>Version Control: Git, GitHub</li>
+          <li>Development Tools: VS Code, Figma (basic)</li>
+          <li>Methodologies: BEM, responsive design, modular code structure</li>
+        </ul>
+      </section>
+      <section class="section code no-left-padding" id="code">
+        <h2>Code Examples</h2>
+        <pre><code>function multiply(a, b) {
+          return a * b;
+        }</code></pre>
+      </section>
+      <section class="section courses" id="courses">
+        <h2>Education & Courses</h2>
+        <ul>
+          <li>RS School "JavaScript/Front-end" course – in progress</li>
+          <li>ITGirls School "Frontend developer" - in progress</li>
+        </ul>
+      </section>
+      <section class="section projects no-left-padding" id="projects">
+        <h2>Projects</h2>
+        <ul>
+          <li>
+            <a href="https://nerpabosikom.github.io/ProjectOne/"
+              >Cheffest (лендинг)</a
+            >
+          </li>
+          <li>
+            <a href="https://nerpabosikom.github.io/ProjectTwo/"
+              >Anna Virsen (многостраничный сайт)</a
+            >
+          </li>
+        </ul>
+      </section>
+      <section class="section languages" id="languages">
+        <h2>English</h2>
+        <p>
+          Level: Intermediate (B1–B2)<br>
+          I read documentation, watch tutorials, and sometimes practice English
+          while studying.<br>
+          I want to improve my speaking and understanding to work comfortably in
+          a team.
+        </p>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__container">
+          <a href="https://rs.school/courses/javascript-ru" target="_blank">
+            <img
+              class="footer__logo"
+              src="./assets/images/rs-school-logo.svg"
+              alt="rs school logo">
+          </a>
+          <a href="https://github.com/NerpaBosikom" target="_blank"
+            >&copy; 2025 Svetlana Tomzova</a
+          >
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
