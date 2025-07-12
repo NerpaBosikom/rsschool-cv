@@ -34,10 +34,10 @@ html {
 .container {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 0 20px;
 }
 
 .header {
+  padding: 0 20px;
   width: 100%;
   background-color: #c8e2de;
 }
@@ -47,7 +47,7 @@ html {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
 }
 
 li  {
@@ -55,30 +55,43 @@ li  {
 }
 
 .header__nav-link {
-  padding: 0 10px;
   line-height: 50px;
-  /* transition: color 0.5s; */
 }
 
-/* .header__nav-link:hover {
-  color: #888888;
-} */
-
-.mein {
-
+.main {
+  margin-bottom: 40px;
 }
 
 .profile {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  padding: 0 20px;
+  padding-block: 60px;
   width: 100%;
+  background-color: #f2f2f2;
+}
+
+@media (max-width: 768px) {
+  .profile {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    text-align: center;
+  }
 }
 
 .profile__title {
+  margin-bottom: 10px;
   font-family: "Marcellus", serif;
   text-transform: uppercase;
   letter-spacing: 3px;
   font-size: 36px;
 }
+
 .profile__subtitle {
+  margin-bottom: 10px;
   font-family: "Marcellus", serif;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -86,11 +99,13 @@ li  {
 }
 
 .profile__avatar {
-  width: 200px;
-  height: 200px;
+  justify-self: center;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
+  border: 7px solid #c8e2de;
   object-fit: cover;
-  margin-bottom: 20px;
+  margin-block: 20px;
 }
 
 .main-container {
@@ -99,6 +114,8 @@ li  {
 }
 
 .section {
+  margin-bottom: 30px;
+  padding: 0 20px;
   width: 50%;
 }
 
@@ -109,18 +126,21 @@ li  {
 }
 
 h2 {
+  margin-bottom: 10px;
   font-family: "Marcellus", serif;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 22px;
+  text-decoration: underline;
+  text-decoration-color: #c8e2de;
+  text-underline-offset: 4px;
 }
+
 p {
   font-size: 16px;
 }
 
 .footer {
-  /* display: flex;
-  justify-content: flex-start; */
   height: 10vh;
   width: 100%;
   background-color: #c8e2de;
@@ -137,4 +157,11 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 20px;
+}
+
+@media (min-width: 769px) {
+  .no-left-padding {
+    padding-left: 0;
+  }
 }
