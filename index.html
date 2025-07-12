@@ -14,41 +14,142 @@
     <title>cv</title>
   </head>
   <body>
-    <header class="header container">
-      <nav class="header__nav">
-        <ul class="header__nav-list">
-          <li class="header__nav-item">
-            <a href="#contacts" class="header__nav-link">Contacts</a>
+    <header class="header">
+      <div class="container">
+        <nav class="header__nav">
+          <ul class="header__nav-list">
+            <li class="header__nav-item">
+              <a
+                class="header__nav-link"
+                href="#contacts"
+                class="header__nav-link"
+                >Contacts</a
+              >
+            </li>
+            <li class="header__nav-item">
+              <a
+                class="header__nav-link"
+                href="#summary"
+                class="header__nav-link"
+                >Summary</a
+              >
+            </li>
+            <li class="header__nav-item">
+              <a
+                class="header__nav-link"
+                href="#skills"
+                class="header__nav-link"
+                >Skills</a
+              >
+            </li>
+            <li class="header__nav-item">
+              <a class="header__nav-link" href="#code" class="header__nav-link"
+                >Code</a
+              >
+            </li>
+            <li class="header__nav-item">
+              <a
+                class="header__nav-link"
+                href="#courses"
+                class="header__nav-link"
+                >Courses</a
+              >
+            </li>
+            <li class="header__nav-item">
+              <a
+                class="header__nav-link"
+                href="#projects"
+                class="header__nav-link"
+                >Projects</a
+              >
+            </li>
+            <li class="header__nav-item">
+              <a
+                class="header__nav-link"
+                href="#languages"
+                class="header__nav-link"
+                >Languages</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main container main-container">
+      <section class="profile">
+        <h1 class="profile__title">Svetlana Tomzova</h1>
+        <p class="profile__subtitle">Frontend Developer ( Junior )</p>
+        <img
+          class="profile__avatar"
+          src="./assets/images/avatar.jpg"
+          alt="my photo"
+        />
+      </section>
+      <section class="section contacts" id="#contacts">
+        <h2>Contacts</h2>
+        <p>
+          [Telegram @nerpa_bosikom](https://t.me/nerpa_bosikom) Email:
+          bosekom@bk.ru Discord: Nerpa (@NerpaBosikom)
+        </p>
+      </section>
+      <section class="section summary" id="#summary">
+        <h2>About Me</h2>
+        <p>
+          I'm a junior frontend developer and want to grow in IT. I enjoy
+          writing clean code, creating user-friendly interfaces, and learning
+          new things. I don’t have work experience yet, but I’ve built several
+          study projects using HTML, CSS, JavaScript, and React. I try to pay
+          attention to details and I'm not afraid to try new things. My goal is
+          to gain experience, work on real tasks, and grow in a team.
+        </p>
+      </section>
+      <section class="section skills" id="#skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>Languages: JavaScript (ES6+), HTML5, CSS3</li>
+          <li>Frameworks/Libraries: React, Bootstrap</li>
+          <li>Version Control: Git, GitHub</li>
+          <li>Development Tools: VS Code, Figma (basic)</li>
+          <li>Methodologies: BEM, responsive design, modular code structure</li>
+        </ul>
+      </section>
+      <section class="section code" id="#code">
+        <h2>Code Examples</h2>
+        <p>``` function multiply(a, b){ return a * b } ```</p>
+      </section>
+      <section class="section courses" id="#courses">
+        <h2>Education & Courses</h2>
+        <ul>
+          <li>RS School "JavaScript/Front-end" course – in progress</li>
+          <li>ITGirls School "Frontend developer" - in progress</li>
+        </ul>
+      </section>
+      <section class="section projects" id="#projects">
+        <h2>Projects</h2>
+        <ul>
+          <li>
+            <a href="https://nerpabosikom.github.io/ProjectOne/"
+              >Cheffest (лендинг)</a
+            >
           </li>
-          <li class="header__nav-item">
-            <a href="#summary" class="header__nav-link">Summary</a>
-          </li>
-          <li class="header__nav-item">
-            <a href="#skills" class="header__nav-link">Skills</a>
-          </li>
-          <li class="header__nav-item">
-            <a href="#skills" class="header__nav-link">Skills</a>
-          </li>
-          <li class="header__nav-item">
-            <a href="#skills" class="header__nav-link">Skills</a>
-          </li>
-          <li class="header__nav-item">
-            <a href="#skills" class="header__nav-link">Skills</a>
-          </li>
-          <li class="header__nav-item">
-            <a href="#skills" class="header__nav-link">Skills</a>
+          <li>
+            <a href="https://nerpabosikom.github.io/ProjectTwo/"
+              >Anna Virsen (многостраничный сайт)</a
+            >
           </li>
         </ul>
-      </nav>
-    </header>
-    <main class="main container">
-      <h1 class="main__title">Svetlana Tomzova</h1>
-      <img
-        class="main__avatar"
-        src="./assets/images/avatar.jpg"
-        alt="my photo"
-      />
+      </section>
+      <section class="section languages" id="#languages">
+        <h2>English</h2>
+        <p>
+          Level: Intermediate (B1–B2) I read documentation, watch tutorials, and
+          sometimes practice English while studying. I want to improve my
+          speaking and understanding to work comfortably in a team.
+        </p>
+      </section>
     </main>
-    <footer class="footer container"></footer>
+    <footer class="footer">
+      <div class="container"></div>
+    </footer>
   </body>
 </html>
