@@ -14,6 +14,7 @@ body {
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
+  background-color: #FDFDFD;
   color: #111111;
 } 
 
@@ -24,7 +25,7 @@ a {
 }
 
 a:hover {
-  color: #888888;
+  color: #E6DED3;
 }
 
 html {
@@ -39,7 +40,7 @@ html {
 .header {
   padding: 0 20px;
   width: 100%;
-  background-color: #c8e2de;
+  background-color: #BBC0BA;
 }
 
 .header__nav-list {
@@ -71,7 +72,7 @@ li  {
   padding: 0 20px;
   padding-block: 60px;
   width: 100%;
-  background-color: #f2f2f2;
+  background-color: #FDF0E7;
 }
 
 @media (max-width: 768px) {
@@ -103,7 +104,7 @@ li  {
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  border: 7px solid #c8e2de;
+  border: 7px solid #BBC0BA;
   object-fit: cover;
   margin-block: 20px;
 }
@@ -132,7 +133,7 @@ h2 {
   letter-spacing: 2px;
   font-size: 22px;
   text-decoration: underline;
-  text-decoration-color: #c8e2de;
+  text-decoration-color: #BBC0BA;
   text-underline-offset: 4px;
 }
 
@@ -143,7 +144,7 @@ p {
 .footer {
   height: 10vh;
   width: 100%;
-  background-color: #c8e2de;
+  background-color: #BBC0BA;
 }
 
 .footer__logo {
