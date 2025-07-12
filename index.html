@@ -19,57 +19,25 @@
         <nav class="header__nav">
           <ul class="header__nav-list">
             <li class="header__nav-item">
-              <a
-                class="header__nav-link"
-                href="#contacts"
-                class="header__nav-link"
-                >Contacts</a
-              >
+              <a class="header__nav-link" href="#contacts">Contacts</a>
             </li>
             <li class="header__nav-item">
-              <a
-                class="header__nav-link"
-                href="#summary"
-                class="header__nav-link"
-                >Summary</a
-              >
+              <a class="header__nav-link" href="#summary">Summary</a>
             </li>
             <li class="header__nav-item">
-              <a
-                class="header__nav-link"
-                href="#skills"
-                class="header__nav-link"
-                >Skills</a
-              >
+              <a class="header__nav-link" href="#skills">Skills</a>
             </li>
             <li class="header__nav-item">
-              <a class="header__nav-link" href="#code" class="header__nav-link"
-                >Code</a
-              >
+              <a class="header__nav-link" href="#code">Code</a>
             </li>
             <li class="header__nav-item">
-              <a
-                class="header__nav-link"
-                href="#courses"
-                class="header__nav-link"
-                >Courses</a
-              >
+              <a class="header__nav-link" href="#courses">Courses</a>
             </li>
             <li class="header__nav-item">
-              <a
-                class="header__nav-link"
-                href="#projects"
-                class="header__nav-link"
-                >Projects</a
-              >
+              <a class="header__nav-link" href="#projects">Projects</a>
             </li>
             <li class="header__nav-item">
-              <a
-                class="header__nav-link"
-                href="#languages"
-                class="header__nav-link"
-                >Languages</a
-              >
+              <a class="header__nav-link" href="#languages">Languages</a>
             </li>
           </ul>
         </nav>
@@ -85,14 +53,17 @@
           alt="my photo"
         />
       </section>
-      <section class="section contacts" id="#contacts">
+      <section class="section contacts" id="contacts">
         <h2>Contacts</h2>
-        <p>
-          [Telegram @nerpa_bosikom](https://t.me/nerpa_bosikom) Email:
-          bosekom@bk.ru Discord: Nerpa (@NerpaBosikom)
-        </p>
+        <ul>
+          <li>
+            Telegram: <a href="https://t.me/nerpa_bosikom">@nerpa_bosikom</a>
+          </li>
+          <li>Email: <a href="mailto:bosekom@bk.ru">bosekom@bk.ru</a></li>
+          <li>Discord: Nerpa (@NerpaBosikom)</li>
+        </ul>
       </section>
-      <section class="section summary" id="#summary">
+      <section class="section summary" id="summary">
         <h2>About Me</h2>
         <p>
           I'm a junior frontend developer and want to grow in IT. I enjoy
@@ -103,7 +74,7 @@
           to gain experience, work on real tasks, and grow in a team.
         </p>
       </section>
-      <section class="section skills" id="#skills">
+      <section class="section skills" id="skills">
         <h2>Skills</h2>
         <ul>
           <li>Languages: JavaScript (ES6+), HTML5, CSS3</li>
@@ -113,18 +84,20 @@
           <li>Methodologies: BEM, responsive design, modular code structure</li>
         </ul>
       </section>
-      <section class="section code" id="#code">
+      <section class="section code" id="code">
         <h2>Code Examples</h2>
-        <p>``` function multiply(a, b){ return a * b } ```</p>
+        <pre><code>function multiply(a, b) {
+          return a * b;
+        }</code></pre>
       </section>
-      <section class="section courses" id="#courses">
+      <section class="section courses" id="courses">
         <h2>Education & Courses</h2>
         <ul>
           <li>RS School "JavaScript/Front-end" course – in progress</li>
           <li>ITGirls School "Frontend developer" - in progress</li>
         </ul>
       </section>
-      <section class="section projects" id="#projects">
+      <section class="section projects" id="projects">
         <h2>Projects</h2>
         <ul>
           <li>
@@ -139,7 +112,7 @@
           </li>
         </ul>
       </section>
-      <section class="section languages" id="#languages">
+      <section class="section languages" id="languages">
         <h2>English</h2>
         <p>
           Level: Intermediate (B1–B2) I read documentation, watch tutorials, and
@@ -149,7 +122,18 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="container"></div>
+      <div class="container">
+        <div class="footer__container">
+          <a href="https://rs.school/courses/javascript-ru" target="_blank">
+            <img
+              class="footer__logo"
+              src="./assets/images/rs-school-logo.svg"
+              alt="rs school link"
+            />
+          </a>
+          <p>&copy; 2025 Svetlana Tomzova</p>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
